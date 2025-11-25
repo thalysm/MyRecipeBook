@@ -1,5 +1,8 @@
-﻿namespace MyRecipeBook.Domain.Entities
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace MyRecipeBook.Domain.Entities
 {
+    [Table("User")]
     public class User : EntityBase
     {
 
